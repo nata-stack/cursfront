@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacta</title>
 </head>
+
 <body>
-    
+    <!--FORMULARI-->
+    <form action="">
+
+        <!--Nom i cognoms-->
+        <h2>Dades bàsiques</h2>
+        <label for="fname">Nom:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Cognom:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="lname2">Segon Cognom:</label>
+        <input type="text" id="lname2" name="lname2">
+        <br><br>
+
+        <!--Tipus de document-->
+        <label for="dni">Tipus de document:</label>
+        <select id="dni" name="dni">
+            <option value="blank" selected> </option>
+            <option value="DNI">DNI</option>
+            <option value="NIE">NIE</option>
+            <option value="Passaport">Passaport</option>
+            <option value="Carnet de conduïr">Carnet de conduïr</option>
+        </select>
+        <label for="numdoc">Número document:</label>
+        <input type="text" id="numdoc" name="numdoc"><br><br>
+
+        <!--Gènere-->
+        <label for="genere">Gènere sentit:</label>
+        <input type="radio" id="Dona" name="genere" value="Dona">
+        <label for="Dona">Dona</label>
+        <input type="radio" id="css" name="genere" value="Home">
+        <label for="Home">Home</label>
+        <input type="radio" id="nobin" name="genere" value="nobin">
+        <label for="nobin">Gènere no binari</label>
+        <br><br>
+
+        <!--Data de naixement-->
+        <label for="calendari">Data de naixement</label>
+        <input type="date" name="calendari" id="calendari">
+    </form>
+
+    <br><br>
+
+    <!--EMBED DE GOOGLE MAPS-->
+    <div class="mapouter">
+        <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://fmovies-online.net">fmovies</a><br>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 500px;
+                    width: 600px;
+                }
+            </style><a href="https://www.embedgooglemap.net"></a>
+            <style>
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                    width: 600px;
+                }
+            </style>
+        </div>
+    </div>
 </body>
+
 </html>
