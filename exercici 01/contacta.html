@@ -12,8 +12,10 @@
     <!--FORMULARI-->
     <form action="">
 
-        <!--Nom i cognoms-->
+        <!--DADES BÀSIQUES-->
         <h2>Dades bàsiques</h2>
+
+        <!--Nom i cognoms-->
         <label for="fname">Nom:</label>
         <input type="text" id="fname" name="fname"><br><br>
         <label for="lname">Cognom:</label>
@@ -35,7 +37,7 @@
         <input type="text" id="numdoc" name="numdoc"><br><br>
 
         <!--Gènere-->
-        <label for="genere">Gènere sentit:</label>
+        <p>Gènere Sentit</p>
         <input type="radio" id="Dona" name="genere" value="Dona">
         <label for="Dona">Dona</label>
         <input type="radio" id="css" name="genere" value="Home">
@@ -47,6 +49,72 @@
         <!--Data de naixement-->
         <label for="calendari">Data de naixement</label>
         <input type="date" name="calendari" id="calendari">
+
+        <!--DADES DE CONTACTE-->
+        <h2>Dades de contacte</h2>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <label for="telf">Telèfon</label>
+        <input type="tel" name="telf" id="telf">
+
+        <p>Vius a Barcelona?</p>
+        <input type="radio" name="si" id="si">
+        <label for="si">Si</label>
+        <input type="radio" name="no" id="no">
+        <label for="no">No</label>
+        <br><br>
+
+        <label for="via">Tipus de via:</label>
+        <select id="via" name="via">
+            <option value="blank" selected> </option>
+            <option value="carrer">Carrer</option>
+            <option value="passatge">Passatge</option>
+            <option value="avinguda">Avinguda</option>
+            <option value="cami">Camí</option>
+        </select>
+
+        <label for="adress">Adreça</label>
+        <input type="text" name="adress" id="adress">
+
+        <label for="num">Número</label>
+        <input type="text" name="num" id="num">
+
+        <br><br>
+
+        <label for="pis">Pis</label>
+        <input type="text" name="pis" id="pis">
+
+        <label for="porta">Porta</label>
+        <input type="text" name="porta" id="porta">
+
+        <label for="escala">Escala</label>
+        <input type="text" name="escala" id="escala">
+
+        <br><br>
+
+        <label for="cp">Codi postal</label>
+        <input type="text" name="cp" id="cp" disabled>
+
+        <label for="poblacio">Població</label>
+        <input type="text" name="poblacio" id="poblacio" disabled>
+
+        <!--AFICIONS-->
+        <h2>Més informació</h2>
+        <p>Interessos</p>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Passejar">
+        <label for="vehicle1">Passejar</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Llegir">
+        <label for="vehicle2">Llegir</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Viatjar">
+        <label for="vehicle3">Viatjar</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Altres">
+        <label for="vehicle3">Altres</label><br>
+
+        <p>Aquí pots explicar les teves aficions:</p>
+        <textarea name="about" id="about" cols="60" rows="10"></textarea>
+
     </form>
 
     <br><br>
