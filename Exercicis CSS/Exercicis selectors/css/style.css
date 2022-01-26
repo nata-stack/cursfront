@@ -1,0 +1,21 @@
+/*Exercici 2*/
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-bottom: 2rem;
+}
+
+a{
+    color: red;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+/*Exercici 3*/
