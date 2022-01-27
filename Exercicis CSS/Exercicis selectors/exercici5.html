@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacta</title>
+    <link rel="stylesheet" href="css/style5.css">
+</head>
+
+<body>
+    <!--FORMULARI-->
+    <form action="" class="formulari">
+        <section class="dades_basiques">
+
+            <!--DADES BÀSIQUES-->
+            <h2>Dades bàsiques</h2>
+
+            <!--Nom i cognoms-->
+            <label for="fname">Nom</label>
+            <br>
+            <input type="text" id="fname" name="fname">
+            <br>
+
+            <label for="lname">Cognom</label>
+            <br>
+            <input type="text" id="lname" name="lname">
+            <br>
+
+            <label for="lname2">Segon Cognom:</label>
+            <br>
+            <input type="text" id="lname2" name="lname2">
+            <br><br>
+
+            <!--Tipus de document-->
+            <label for="dni">Tipus de document:</label>
+            <br>
+            <select id="dni" name="dni">
+                <option value="blank" selected> </option>
+                <option value="DNI">DNI</option>
+                <option value="NIE">NIE</option>
+                <option value="Passaport">Passaport</option>
+                <option value="Carnet de conduïr">Carnet de conduïr</option>
+            </select>
+            <br>
+
+            <label for="numdoc">Número document:</label>
+            <br>
+            <input type="text" id="numdoc" name="numdoc">
+            <br>
+
+            <!--Gènere-->
+            <p>Gènere Sentit</p>
+            <input type="radio" id="Dona" name="genere" value="Dona">
+            <label for="Dona">Dona</label>
+            <input type="radio" id="css" name="genere" value="Home">
+            <label for="Home">Home</label>
+            <input type="radio" id="nobin" name="genere" value="nobin">
+            <label for="nobin">Gènere no binari</label>
+            <br><br>
+
+            <!--Data de naixement-->
+
+            <label for="calendari">Data de naixement</label>
+            <br>
+            <input type="date" name="calendari" id="calendari">
+
+        </section>
+
+        <section class="dades_contacte">
+
+            <!--DADES DE CONTACTE-->
+            <h2>Dades de contacte</h2>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+
+            <label for="telf">Telèfon</label>
+            <input type="tel" name="telf" id="telf">
+
+            <p>Vius a Barcelona?</p>
+            <input type="radio" name="si" id="si">
+            <label for="si">Si</label>
+            <input type="radio" name="no" id="no">
+            <label for="no">No</label>
+            <br><br>
+
+            <label for="via">Tipus de via:</label>
+            <select id="via" name="via">
+                <option value="blank" selected> </option>
+                <option value="carrer">Carrer</option>
+                <option value="passatge">Passatge</option>
+                <option value="avinguda">Avinguda</option>
+                <option value="cami">Camí</option>
+            </select>
+            <br><br>
+
+            <label for="adress">Adreça</label>
+            <input type="text" name="adress" id="adress">
+            <br><br>
+
+            <label for="num">Número</label>
+            <input type="text" name="num" id="num">
+
+            <br><br>
+
+            <label for="pis">Pis</label>
+            <input type="text" name="pis" id="pis">
+            <br><br>
+
+            <label for="porta">Porta</label>
+            <input type="text" name="porta" id="porta">
+            <br><br>
+
+            <label for="escala">Escala</label>
+            <input type="text" name="escala" id="escala">
+
+            <br><br>
+
+            <label for="cp">Codi postal</label>
+            <input type="text" name="cp" id="cp" disabled>
+            <br><br>
+
+            <label for="poblacio">Població</label>
+            <input type="text" name="poblacio" id="poblacio" disabled>
+
+        </section>
+
+        <section class="aficions">
+            <!--AFICIONS-->
+            <h2>Més informació</h2>
+            <p>Interessos</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Passejar">
+            <label for="vehicle1">Passejar</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Llegir">
+            <label for="vehicle2">Llegir</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Viatjar">
+            <label for="vehicle3">Viatjar</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Altres">
+            <label for="vehicle3">Altres</label><br>
+
+            <p>Aquí pots explicar les teves aficions:</p>
+            <textarea name="about" id="about" cols="60" rows="10"></textarea>
+            <br><br>
+
+            <button type="submit">Enviar</button>
+            
+        </section>
+
+    </form>
+
+    <br><br>
+
+
+</body>
+
+</html>

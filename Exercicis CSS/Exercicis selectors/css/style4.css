@@ -1,5 +1,25 @@
 /*//////////////////Exercici 4///////////////*/
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(24, 23, 23);
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    border: 1px solid rgb(68, 67, 67);
+    width: fit-content;
+}
+
+.elemento{
+    background-color: rgb(221, 219, 219);
+    border-bottom: 1px solid rgb(68, 67, 67);
+    width: fit-content;
+    padding: 4px 70px 4px 4px;
+}
 
 a{
     background-image: url("../img/flecha_inactiva.png");
@@ -8,6 +28,11 @@ a{
     background-position-y: center;
     padding-left: 30px;
     text-decoration: none;
-    border: 1px solid black;
-    
+}
+
+a:hover{
+    background-image: url("../img/flecha_activa.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
 }
