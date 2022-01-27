@@ -3,17 +3,16 @@
 }
 
 /*////////Exercici 5////////*/
-
-.container{
-    background-color: pink;
+body{
+    text-align: center;
 }
 
 .article{
-    width: 100%;
+    width: 80%;
     border: 1px solid black;
     text-align: center;
     font-size: small;
-    margin-bottom: 7px;
+    margin: 10px 150px;
 }
 
 .a1{
@@ -21,8 +20,7 @@
 }
 
 .a3{
-    background-image: url("../img/caballito.png");
-    background-image: url("../img/img2.jpg");
+    background-image: url("../img/caballito.png"), url("../img/img2.jpg");
 }
 .a4{
     background-image: url("../img/img3.jpg");

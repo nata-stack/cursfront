@@ -1,0 +1,12 @@
+/*//////////////////Exercici 4///////////////*/
+
+.elemento{
+    padding-left: 30px;
+}
+
+a{
+    background-image: url("../img/flecha_inactiva.png");
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: center;
+}
