@@ -74,10 +74,12 @@
             <h2>Dades de contacte</h2>
 
             <label for="email">Email</label>
+            <br>
             <input type="email" name="email" id="email">
-            <br><br>
+            <br>
 
             <label for="telf">Telèfon</label>
+            <br>
             <input type="tel" name="telf" id="telf">
 
             <p>Vius a Barcelona?</p>
@@ -98,33 +100,34 @@
             <br><br>
 
             <label for="adress">Adreça</label>
+            <br>
             <input type="text" name="adress" id="adress">
-            <br><br>
+            <br>
 
-            <label for="num">Número</label>
-            <input type="text" name="num" id="num">
+            <div class="adress">
+                <div class="cajasenlinea">
+                    <label for="num">Número</label> <br>
+                    <input type="text" name="num" id="num" size="4"><br>
+                </div>
 
-            <br><br>
+                <div class="cajasenlinea">
+                    <label for="pis">Pis</label><br>
+                    <input type="text" name="pis" id="pis" size="4"> <br>
+                </div>
+                
+                <div class="cajasenlinea">
+                    <label for="porta">Porta</label> <br>
+                    <input type="text" name="porta" id="porta" size="4"><br>
+                </div>
+            </div>
 
-            <label for="pis">Pis</label>
-            <input type="text" name="pis" id="pis">
-            <br><br>
+            <div class="adress">
+                <label for="cp">Codi postal</label><br>
+                <input type="text" name="cp" id="cp" disabled size="5"><br>
 
-            <label for="porta">Porta</label>
-            <input type="text" name="porta" id="porta">
-            <br><br>
-
-            <label for="escala">Escala</label>
-            <input type="text" name="escala" id="escala">
-
-            <br><br>
-
-            <label for="cp">Codi postal</label>
-            <input type="text" name="cp" id="cp" disabled>
-            <br><br>
-
-            <label for="poblacio">Població</label>
-            <input type="text" name="poblacio" id="poblacio" disabled>
+                <label for="poblacio">Població</label><br>
+                <input type="text" name="poblacio" id="poblacio" disabled>
+            </div>
 
         </section>
 
@@ -146,7 +149,7 @@
             <br><br>
 
             <button type="submit">Enviar</button>
-            
+
         </section>
 
     </form>

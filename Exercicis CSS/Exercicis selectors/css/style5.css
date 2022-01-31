@@ -18,3 +18,8 @@ input {
 label {
     font-size: small;
 }
+
+.cajasenlinea{
+    display: inline-block;
+    margin: 10px;
+}
