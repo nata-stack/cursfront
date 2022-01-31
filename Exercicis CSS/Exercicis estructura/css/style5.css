@@ -1,0 +1,61 @@
+/*Float*/
+/*
+nav{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    background-color: black;
+    padding: 0px 20px;
+    float: left;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+*/
+
+
+/*Inline*/
+
+nav{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    background-color: black;
+    text-align: center;
+    width: auto;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    background-color: black;
+    padding: 0px 20px;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}

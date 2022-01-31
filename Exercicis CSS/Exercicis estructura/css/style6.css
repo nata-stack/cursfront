@@ -1,0 +1,12 @@
+body{
+    background-color: burlywood;
+}
+
+div{
+    background-color: blueviolet;
+    width: 20px;
+}
+
+.inline{
+    display: inline;
+}

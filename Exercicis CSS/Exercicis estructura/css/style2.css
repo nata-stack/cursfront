@@ -1,0 +1,44 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+}
+
+header{
+    background-color: coral;
+    text-align: center;
+    height: 30%;
+}
+
+section{
+    height: 50%;
+}
+
+article{
+    float: left;
+    width: 33.33333%;
+    height: 100%;
+    text-align: center;
+}
+
+.blue{
+    background-color: darkcyan;
+}
+
+.green{
+    background-color: darkgreen;
+}
+
+.red{
+    background-color: firebrick;
+}
+
+footer{
+    height: 20%;
+    background-color: pink;
+}
+

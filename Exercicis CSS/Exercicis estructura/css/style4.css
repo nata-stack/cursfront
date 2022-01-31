@@ -1,0 +1,16 @@
+article{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.centrado{
+    width: 50%;
+    text-align: right;
+}
+
+.derecha{
+    width: 30%;
+    float: right;
+    text-align: left;
+}
