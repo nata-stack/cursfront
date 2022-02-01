@@ -42,3 +42,8 @@ footer{
     background-color: pink;
 }
 
+@media screen and (max-width: 620px){
+    article{
+        width: 100%;
+    }
+}
