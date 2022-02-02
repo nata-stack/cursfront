@@ -4,11 +4,11 @@
     padding: 30px;
     height: 500px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
     align-content: flex-start;
-    gap: 30px;
+    gap: 4px;
 
 }
 
@@ -19,5 +19,34 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     background-color: rgb(173, 99, 64);
+}
 
+.item1{
+    order: 2;
+    flex-grow: 5;
+}
+
+.item2{
+    order: 1;
+    flex-grow: 3;
+}
+
+.item3{
+    order: 6;
+    flex-grow: 3;
+}
+
+.item4{
+    order: 2;
+    flex-grow: 3;
+}
+
+.item5{
+    order: 3;
+    flex-grow: 3;
+}
+
+.item6{
+    order: 4;
+    flex-grow: 3;
 }

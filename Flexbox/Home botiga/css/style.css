@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.main{
+    margin: auto;
+    max-width:1200px
+}
+
+.border{
+    border: 20px solid black;
+    padding: 20px;
+}
+
+.container-1, .container-2{
+    margin-bottom: 20px;
+}
+/*MENU*/
+
+.nav-main{
+    background-color: cadetblue;
+    margin-bottom: -18px;
+    display: flex;
+}
+
+.nav-main div{
+    background-color: rgb(247, 170, 29);
+    height: 20px;
+    margin-right: 10px;
+}
+
+.logo{
+    flex-grow: 1;
+}
+
+.nav-menu{
+    flex-grow: 5;
+}
+
+.nav-menu-right{
+    flex-grow: 1;
+}
+
+/*HEADER*/
+/*BANNER*/
+
+.header{
+    background-color: tomato;
+}
+
+.banner{
+    background-color: yellow;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/*CONTAINER-2*/
+
+.container-2{
+    display: flex;
+    justify-content: center;
+}
+
+.article, .article-aside{
+    height: 20px;
+    background-color: salmon;
+}
