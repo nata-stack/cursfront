@@ -67,3 +67,16 @@
     /* Green */
     color: white;
 }
+
+.footer{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+    background-color: white;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    background-image: url("../img/Superwoman1Banner.jpg");
+    opacity: 0.7;
+}
