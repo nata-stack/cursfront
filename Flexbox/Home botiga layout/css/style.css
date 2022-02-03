@@ -21,7 +21,6 @@
     display: flex;
 }
 
-
 .border{
     border: 20px solid black;
     padding: 20px;
@@ -59,14 +58,15 @@
 
 .shop{
     flex-grow: 3;
-    margin-bottom: -15px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
 .product{
-    height: 25px;
+
+    flex-basis: 40%;
+    
     background-color: green;
     flex-grow: 1;
 }
@@ -80,4 +80,32 @@
     background-color: indianred;
     margin: 10px 5px 0px 5px;
 }
+
+.container-3{
+    background-color: darkorange;
+}
+
+/*MEDIA QUERIES*/
+
+/*Tablet*/
+@media screen and (max-width: 698px){
+    .container-2{
+        flex-direction: column;
+    }
+}
+
+/*Movile*/
+@media screen and (max-width: 420px){
+    .nav-main{
+        flex-direction: column;
+    }
+
+    .shop{
+        flex-direction: column;
+      
+    }
+
+}
+
+
 
