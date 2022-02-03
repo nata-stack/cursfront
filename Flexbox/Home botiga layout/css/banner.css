@@ -27,7 +27,7 @@
 }
 
 .aside {
-    background-color: rgba(255, 255, 0, 0.425);
+    background-color: rgba(0, 110, 255, 0.425);
     padding: 20px;
     flex-grow: 1;
 }
