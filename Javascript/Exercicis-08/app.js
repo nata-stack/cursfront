@@ -138,3 +138,5 @@ const age = '18';
 if (age === 18) console.log('You just became an adult :D '); 
 //=== vol dir igual tipus de dada en aquest cas enter i x tant no sortirà
 if (age == 18) console.log('You just became an adult :D ');
+
+
