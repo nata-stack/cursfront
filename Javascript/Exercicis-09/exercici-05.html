@@ -19,13 +19,14 @@
         és
         fred.*/
 
-        let frase = prompt("Introdueix un frase:");
-        let posicioInicial;
+        let frase = prompt("Introdueix un frase:") + " ";
+        let posicioInicial = 0;
+        let posicioFinal = 0;
         for(i = 0; i < frase.length; i++){
-            posicioInicial = i;
+            posicioFinal = i;
             if(frase.charAt(i) == " "){
-                posicioFinal = i; 
                 document.write(frase.slice(posicioInicial, posicioFinal) + "</br>");
+                posicioInicial = i + 1;
             }
         }
 
