@@ -100,15 +100,21 @@ console.log("++++++++ Exercici 5 +++++++++");
     6-7: Bé
     7-9: Notable
 */
+
+/*
 console.log("++++++++ Exercici 6 +++++++++");
 let nota;
 nota = 2;
 let qualificacio;
 switch (nota) {
+    case 0:
+    case 1:
     case 2:
+    case 3:
         qualificacio = "Molt deficient."
         break;
     case 4:
+    case 5:
         qualificacio = "Insuficient."
         break;
     case 6:
@@ -118,6 +124,7 @@ switch (nota) {
         qualificacio = "Bé."
         break;
     case 8:
+    case 9:
         qualificacio = "Notable."
         break;
     default:
@@ -125,7 +132,35 @@ switch (nota) {
         break;
 }
 console.log(qualificacio);
-
+*/
+// Una altra manera de fer-ho utilitzant intervals 
+// En comptes de la variable forcem a TRUE pq entri i posem la variable amb condicionals als cases
+console.log("++++++++ Exercici 6 +++++++++");
+let nota;
+nota = 8;
+let qualificacio;
+switch (true) {
+    
+    case nota < 3:
+        qualificacio = "Molt deficient."
+        break;
+    case nota < 5:
+        qualificacio = "Insuficient."
+        break;
+    case nota < 6:
+        qualificacio = "Suficient."
+        break;
+    case nota < 7:
+        qualificacio = "Bé."
+        break;
+    case nota < 9:
+        qualificacio = "Notable."
+        break;
+    default:
+        qualificacio = "posa una nota vàlida del 0 al 9"
+        break;
+}
+console.log(qualificacio);
 
 /*
 7. Compara aquests dos condicionals ... quina és la diferencia?
