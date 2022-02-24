@@ -18,7 +18,7 @@
         matí
         és
         fred.*/
-
+        /*
         let frase = prompt("Introdueix un frase:") + " ";
         let posicioInicial = 0;
         let posicioFinal = 0;
@@ -27,6 +27,18 @@
             if(frase.charAt(i) == " "){
                 document.write(frase.slice(posicioInicial, posicioFinal) + "</br>");
                 posicioInicial = i + 1;
+            }
+        }
+        */
+
+        /* Una manera molt més senzilla de fer-ho*/
+
+        let frase = prompt("Introdueix un frase:");
+        for(f = 0; f < frase.length; f++){
+            if(frase.charAt(f) == " "){
+                document.write("</br>");
+            }else{
+                document.write(frase.charAt(f));
             }
         }
 
