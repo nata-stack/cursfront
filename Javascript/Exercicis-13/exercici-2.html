@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+       /*  2. Crea una funció que rebi un array de 5 noms com a paràmetre i retorni un nou
+        array amb el número de caràcters de cada nom. */
+
+        var noms = ["Natalia", "Anna", "Eva", "Eli", "Gabi"];
+        var noms2 = [];
+        function quant(noms){
+            for(i = 0; i < noms.length; i++){
+                var x = noms
+                noms2.push(noms[i].length);
+            }
+            return noms2
+        }
+        console.log(quant(noms));
+
+
+    </script>
+</body>
+
+</html>
