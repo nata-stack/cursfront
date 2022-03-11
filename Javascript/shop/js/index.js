@@ -25,3 +25,11 @@ function subTotal(){
     }
 }
 
+function calculateTotal(){
+
+}
+
+function generateCart(){
+    
+}
+
